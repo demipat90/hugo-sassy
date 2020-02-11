@@ -1,0 +1,25 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: {{ .Params.primary_color | default "#7a8288" }} !default;
+$secondary-color: {{ .Site.Data.colors.secondary_color | default "#3f3f3f" }} !default;
+$container: {{ .Site.Params.container_size | default "1100px" }};
+$container-wide: {{ .Site.Params.container_size_wide | default "1350px" }};
+
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+h2 {
+  color: $secondary-color;
+}
+
+.container {
+  width: 100%;
+  max-width: $container;
+  margin: 0 auto;
+  position: relative;
+  &-wide {
+    max-width: $container-wide;
+  }
+}

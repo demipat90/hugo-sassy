@@ -1,0 +1,10 @@
+name: "Sassy"
+license: "MIT"
+licenselink: "https://github.com/demipat90/hugo-sassy/blob/master/LICENSE"
+description: "A Hugo skel theme with sass integration."
+min_version: "0.43.0"
+
+author:
+  name: "demipat90"
+  homepage: "https://about.me/demipat90"
+

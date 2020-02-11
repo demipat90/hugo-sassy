@@ -1,0 +1,8 @@
+baseURL: "/"
+languageCode: "en-us"
+title: "Master Example Site"
+theme: sassy
+
+params:
+  container_size: "1200px"
+  container_size_wide: "1440px"
